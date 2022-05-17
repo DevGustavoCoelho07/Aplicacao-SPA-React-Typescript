@@ -1,0 +1,25 @@
+// @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Zilla+Slab:wght@300;400;700&display=swap");
+.header__ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    .header__li {
+        margin: 0px 20px;
+        text-decoration: none;
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: "Zilla Slab";
+            font-weight: 400;
+            font-size: 1.3rem;
+
+            // &:hover {
+            //     color: rgb(97, 95, 95);
+            // }
+        }
+    }
+}
